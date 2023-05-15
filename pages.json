@@ -27,7 +27,8 @@
 			"enablePullDownRefresh": false
 		}
 
-	}],
+	}
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
 		"navigationBarTitleText": "Xy购物",
@@ -61,5 +62,27 @@
 				"selectedIconPath": "static/tab_icons/my-active.png"
 			}
 		]
-	}
+	},
+	"subPackages": [{
+		"root": "subpkg",
+		"pages": [{
+                    "path" : "goods_detail/goods_detail",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "goods_list/goods_list",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+	}]
 }
